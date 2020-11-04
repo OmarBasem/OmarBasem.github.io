@@ -593,14 +593,9 @@ function handleDescriptionDelay() {
 
 
 // Automatic timer
-<<<<<<< HEAD
 const activeDelay = .76;
 let interval = 12000;
-=======
-const
-    activeDelay = .76,
-    interval = 12000;
->>>>>>> 9480905c7d8b23b4de18755fa69863187a55baa0
+
 
 let current = 0;
 
