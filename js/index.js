@@ -593,9 +593,8 @@ function handleDescriptionDelay() {
 
 
 // Automatic timer
-const
-    activeDelay = .76,
-    interval = 5000;
+const activeDelay = .76;
+let interval = 12000;
 
 let current = 0;
 
@@ -617,6 +616,7 @@ const slider = {
         slider.transitionDelay(descriptionItems);
     },
     clickedControl: (e) => { // Add active class to clicked control and corresponding slide
+        interval = 25000;
         slider.reset();
         clearInterval(intervalF);
 
